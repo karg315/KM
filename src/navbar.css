@@ -1,0 +1,20 @@
+header {
+    padding: 0px;
+}
+
+.nav-item {
+    font-size: 17px;
+}
+
+.imgLogo{
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+    transition: .5s, color .10s;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.imgLogo:hover{  
+    -webkit-transform: scale3d(1.3, 1.3, 1);
+    -moz-transform: scale3d(1.3, 1.3, 1);
+    transform: scale3d(1.3, 1.3, 1);
+}

@@ -1,0 +1,40 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("./images/fondo-kartel-v1.jpg");
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-size: cover;
+	-webkit-backdrop-filter: blur(4px);
+	backdrop-filter: blur(4px);
+}
+
+/*Código para cambiar la barra deslizadora*/
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #004fec, #00d6fb);
+    border-radius: 25px;
+    border: 2px solid blue;
+}
+
+::-webkit-scrollbar-track {
+    background: midnightblue;
+}
+
+ul {
+    font-family: 'Handlee', cursive;
+}
+
+.nav-link {
+    font-size: 125%;
+}

@@ -1,9 +1,9 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Kartel de las Moritaz",
+  "name": "Página del Kartel de las Moritaz",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "logo-kartel-1x1.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
