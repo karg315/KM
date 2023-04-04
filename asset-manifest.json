@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/KM/static/css/main.5fbae4fc.css",
-    "main.js": "/KM/static/js/main.552b6c92.js",
+    "main.js": "/KM/static/js/main.f8a71177.js",
     "static/media/fondo-kartel-v1.jpg": "/KM/static/media/fondo-kartel-v1.cddf98ff71f7f30f01f1.jpg",
     "static/media/torneos.jpg": "/KM/static/media/torneos.2f1f9427ef6df36bef5f.jpg",
     "static/media/eventos.jpg": "/KM/static/media/eventos.4ce3e3e4cc574a310886.jpg",
@@ -11,10 +11,10 @@
     "static/media/kartel v1.png": "/KM/static/media/kartel v1.b76746c77287fd400026.png",
     "index.html": "/KM/index.html",
     "main.5fbae4fc.css.map": "/KM/static/css/main.5fbae4fc.css.map",
-    "main.552b6c92.js.map": "/KM/static/js/main.552b6c92.js.map"
+    "main.f8a71177.js.map": "/KM/static/js/main.f8a71177.js.map"
   },
   "entrypoints": [
     "static/css/main.5fbae4fc.css",
-    "static/js/main.552b6c92.js"
+    "static/js/main.f8a71177.js"
   ]
 }
