@@ -66,7 +66,7 @@ export default function PagPrincipal() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col">
+                        <div className="col mb-5">
                             <div className="card">
                                 <Link 
                                     to="/eventos">
@@ -87,7 +87,7 @@ export default function PagPrincipal() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col">
+                        <div className="col mb-5">
                             <div className="card">
                                 <Link to="/herramientas">
                                     <img

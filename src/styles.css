@@ -12,6 +12,7 @@ body {
     margin: 0px;
     /* background-size: cover; */
     background-repeat: repeat-y;
+    background-size: 100% auto;
 	-webkit-backdrop-filter: blur(4px);
 	backdrop-filter: blur(4px);
 }

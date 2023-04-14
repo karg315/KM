@@ -1,14 +1,14 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { Navbar } from "../Navbar";
 import "./pokedex.css";
 
 function PokemonDetail() {
     const { id } = useParams();
-    const [pokemon, setPokemon] = React.useState(null);
+    const [pokemon, setPokemon] = useState(null);
     const navigate = useNavigate();
 
-    React.useEffect(() => {
+    useEffect(() => {
         async function fetchPokemon() {
             try {
                 const response = await fetch(
