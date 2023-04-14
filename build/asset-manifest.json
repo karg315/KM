@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.29bd66b6.css",
-    "main.js": "/static/js/main.173b0b05.js",
-    "static/media/fondo-kartel-v1.jpg": "/static/media/fondo-kartel-v1.cddf98ff71f7f30f01f1.jpg",
-    "static/media/torneos.jpg": "/static/media/torneos.2f1f9427ef6df36bef5f.jpg",
-    "static/media/eventos.jpg": "/static/media/eventos.4ce3e3e4cc574a310886.jpg",
-    "static/media/horarios.jpg": "/static/media/horarios.9218172a20ca023ab951.jpg",
-    "static/media/herramientas.jpg": "/static/media/herramientas.6d301be872c8b37cd17e.jpg",
-    "static/media/wip.png": "/static/media/wip.cb24cab649fd40138480.png",
-    "static/media/kartel v1.png": "/static/media/kartel v1.b76746c77287fd400026.png",
-    "index.html": "/index.html",
-    "main.29bd66b6.css.map": "/static/css/main.29bd66b6.css.map",
-    "main.173b0b05.js.map": "/static/js/main.173b0b05.js.map"
+    "main.css": "/KM/static/css/main.5fbae4fc.css",
+    "main.js": "/KM/static/js/main.f8a71177.js",
+    "static/media/fondo-kartel-v1.jpg": "/KM/static/media/fondo-kartel-v1.cddf98ff71f7f30f01f1.jpg",
+    "static/media/torneos.jpg": "/KM/static/media/torneos.2f1f9427ef6df36bef5f.jpg",
+    "static/media/eventos.jpg": "/KM/static/media/eventos.4ce3e3e4cc574a310886.jpg",
+    "static/media/horarios.jpg": "/KM/static/media/horarios.9218172a20ca023ab951.jpg",
+    "static/media/herramientas.jpg": "/KM/static/media/herramientas.6d301be872c8b37cd17e.jpg",
+    "static/media/wip.png": "/KM/static/media/wip.cb24cab649fd40138480.png",
+    "static/media/kartel v1.png": "/KM/static/media/kartel v1.b76746c77287fd400026.png",
+    "index.html": "/KM/index.html",
+    "main.5fbae4fc.css.map": "/KM/static/css/main.5fbae4fc.css.map",
+    "main.f8a71177.js.map": "/KM/static/js/main.f8a71177.js.map"
   },
   "entrypoints": [
-    "static/css/main.29bd66b6.css",
-    "static/js/main.173b0b05.js"
+    "static/css/main.5fbae4fc.css",
+    "static/js/main.f8a71177.js"
   ]
 }

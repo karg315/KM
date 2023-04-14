@@ -1,0 +1,10 @@
+footer{
+    align-self: flex-end;
+	text-align: center;
+	color: ghostwhite;
+	background-color: black;
+	font-size: 16px;
+	font-family: 'Handlee', cursive;
+	width: 100%;
+    padding: 6px 0px 0px 0px;
+}

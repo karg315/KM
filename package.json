@@ -2,7 +2,7 @@
   "name": "prueba-1",
   "version": "3.0",
   "private": true,
-  "homepage": "https://karg315.github.io/KM/",
+  "homepage": "http://karg315.github.io/KM",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
