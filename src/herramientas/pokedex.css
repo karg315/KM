@@ -7,31 +7,115 @@
 }
 
 .badge {
-    animation:blur 1s ease-out;
-	text-shadow:0px 0px 1px #000000,
-		0px 0px 2px #000000;
-        margin-left: 5px;
+    animation: blur 1s ease-out;
+    text-shadow: 0px 0px 1px #000000, 0px 0px 2px #000000;
+    margin-inline: 2px;
+    border: 1px solid #0e0e0e;
+    font-size: 90%;
 }
 
-h2{
+h2 {
     text-align: center;
-    animation:blur 1s ease-out;
-	text-shadow:0px 0px 1px #ffffff,
-		0px 0px 2px #ffffff;
+    animation: blur 1s ease-out;
+    text-shadow: 0px 0px 2px #ffffff, 0px 0px 2px #ffffff;
     font-size: 40px;
+    font-weight: bolder;
 }
 
 h1 {
     text-align: center;
-    animation:blur 1s ease-out;
-	text-shadow:0px 0px 1px #ffffff,
-		0px 0px 2px #ffffff;
+    animation: blur 1s ease-out;
+    text-shadow: 0px 0px 1px #ffffff, 0px 0px 2px #ffffff;
+}
+
+.bg-primary{
+    font-size: 80%;
 }
 
 .card-detail {
     max-width: 500px;
 }
 
+.card {
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
 .wip {
     max-width: 300px;
+}
+
+.badge-bug {
+    background-color: #00360d;
+}
+
+.badge-water {
+    background-color: #06a6d6;
+}
+
+.badge-normal {
+    background-color: #8d8d8d;
+}
+
+.badge-fire {
+    background-color: #e21414;
+}
+
+.badge-grass {
+    background-color: #78c850;
+}
+
+.badge-electric {
+    background-color: #ddb92a;
+}
+
+.badge-ice {
+    background-color: #98d8d8;
+}
+
+.badge-fighting {
+    background-color: #740600;
+}
+
+.badge-poison {
+    background-color: #aa37aa;
+}
+
+.badge-ground {
+    background-color: #a58e4e;
+}
+
+.badge-flying {
+    background-color: #a590f0;
+}
+
+.badge-psychic {
+    background-color: #f358f8;
+}
+
+.badge-rock {
+    background-color: #494946;
+}
+
+.badge-ghost {
+    background-color: #705898;
+}
+
+.badge-dark {
+    background-color: #111111;
+}
+
+.badge-dragon {
+    background-color: #090085;
+}
+
+.badge-steel {
+    background-color: #b8b8d0;
+}
+
+.badge-fairy {
+    background-color: #e0889b;
 }

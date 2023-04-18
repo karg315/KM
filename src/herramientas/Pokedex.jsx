@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./pokedex.css";
 import { Navbar } from "../Navbar";
 
@@ -9,6 +9,8 @@ function Pokedex() {
     const [prevUrl, setPrevUrl] = useState("");
     const [pokemonImageList, setPokemonImageList] = useState({});
     const [loading, setLoading] = useState(true);
+    const navigate = useNavigate();
+    const [searchTerm, setSearchTerm] = useState("");
 
     useEffect(() => {
         setLoading(true);
@@ -72,6 +74,64 @@ function Pokedex() {
         }
     };
 
+    const handleChange = (e) => {
+        setSearchTerm(e.target.value);
+    };
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        /* handleSearch(searchTerm); */
+        navigate("/herramientas/pokemon/" + searchTerm);
+        setSearchTerm("");
+    };
+
+    /* const handleSearch = (term) => {
+        setSearchTerm(term);
+    }; */
+
+    const getTypeClass = (type) => {
+        switch (type) {
+            case "normal" :
+                return "badge badge-normal";
+            case "grass":
+                return "badge badge-grass";
+            case "fire":
+                return "badge badge-fire";
+            case "water":
+                return "badge badge-water";
+            case "bug" :
+                return "badge badge-bug";
+            case "poison" :
+                return "badge badge-poison";
+            case "ghost" :
+                return "badge badge-ghost";
+            case "rock" :
+                return "badge badge-rock";
+            case "ground" :
+                return "badge badge-ground";
+            case "electric" :
+                return "badge badge-electric";
+            case "psychic" :
+                return "badge badge-psychic";
+            case "ice" :
+                return "badge badge-ice";
+            case "dragon" :
+                return "badge badge-dragon";
+            case "dark" :
+                return "badge badge-dark";            
+            case "fairy" :
+                return "badge badge-fairy";
+            case "fighting" :
+                return "badge badge-fighting";
+            case "flying" :
+                return "badge badge-flying";
+            case "steel" :
+                return "badge badge-steel";
+            default:
+                return "badge bg-secondary";
+        }
+    };
+
     return (
         <>
             <Navbar />
@@ -80,16 +140,43 @@ function Pokedex() {
                     <h2 className="mb-4">
                         Pokedex <span className="badge bg-primary">Beta</span>
                     </h2>
+
+                    <h3>
+                        <div className="mb-3 px-5">
+                            <form
+                                className="d-flex bg-dark"
+                                onSubmit={handleSubmit}
+                                id="search-form"
+                            >
+                                <input
+                                    className="form-control me-2"
+                                    type="search"
+                                    placeholder="Buscar Pokemon"
+                                    aria-label="Search"
+                                    value={searchTerm}
+                                    onChange={handleChange}
+                                />
+                                <button
+                                    className="btn btn-outline-success"
+                                    type="submit"
+                                >
+                                    Buscar
+                                </button>
+                            </form>
+                        </div>
+                    </h3>
                     {pokemonList.map((pokemon) => (
                         <div
                             key={pokemon.name}
-                            className="col-sm-4 col-md-3 mb-3"
+                            className="col-sm-4 col-lg-3 mb-3"
                         >
                             <div className="card shadow-sm">
                                 {pokemonImageList[pokemon.name] && (
                                     <img
                                         className="card-img-top"
-                                        src={pokemonImageList[pokemon.name].image}
+                                        src={
+                                            pokemonImageList[pokemon.name].image
+                                        }
                                         alt={pokemon.name}
                                     />
                                 )}
@@ -103,15 +190,14 @@ function Pokedex() {
                                                 pokemon.name
                                             ].types.map((type, index) => (
                                                 <span
-                                                    className="badge bg-secondary"
+                                                    className={getTypeClass(type)}
                                                     key={index}
-                                                    >
+                                                >
                                                     {type}
                                                 </span>
-                                                
                                             ))}
                                         </div>
-                                    )}                                    
+                                    )}
                                     <Link
                                         to={`/herramientas/pokemon/${pokemon.name}`}
                                         className="btn btn-primary"
@@ -143,7 +229,7 @@ function Pokedex() {
                 </div>
             </div>
         </>
-    )
+    );
 }
 
 export default Pokedex;

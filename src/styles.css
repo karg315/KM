@@ -40,3 +40,7 @@ ul {
 .nav-link {
     font-size: 125%;
 }
+
+.tfifa2022 {
+    filter: drop-shadow(0 0 0.75rem crimson);
+}

@@ -28,6 +28,49 @@ function PokemonDetail() {
         return <div>Loading...</div>;
     }
 
+    const getTypeClass = (type) => {
+        switch (type) {
+            case "normal" :
+                return "badge badge-normal";
+            case "grass":
+                return "badge badge-grass";
+            case "fire":
+                return "badge badge-fire";
+            case "water":
+                return "badge badge-water";
+            case "bug" :
+                return "badge badge-bug";
+            case "poison" :
+                return "badge badge-poison";
+            case "ghost" :
+                return "badge badge-ghost";
+            case "rock" :
+                return "badge badge-rock";
+            case "ground" :
+                return "badge badge-ground";
+            case "electric" :
+                return "badge badge-electric";
+            case "psychic" :
+                return "badge badge-psychic";
+            case "ice" :
+                return "badge badge-ice";
+            case "dragon" :
+                return "badge badge-dragon";
+            case "dark" :
+                return "badge badge-dark";            
+            case "fairy" :
+                return "badge badge-fairy";
+            case "fighting" :
+                return "badge badge-fighting";
+            case "flying" :
+                return "badge badge-flying";
+            case "steel" :
+                return "badge badge-steel";
+            default:
+                return "badge bg-secondary";
+        }
+    };
+
     return (
         <>
             <Navbar />
@@ -44,7 +87,7 @@ function PokemonDetail() {
                             
                             {pokemon.types.length === 1 ? (
                                 <span
-                                className="badge bg-secondary"
+                                className={getTypeClass(pokemon.types[0].type.name)}
                                 key={1}
                             >
                                 {pokemon.types[0].type.name}
@@ -52,13 +95,13 @@ function PokemonDetail() {
                             ) : (
                                 <>
                                 <span
-                                    className="badge bg-secondary"
+                                    className={getTypeClass(pokemon.types[0].type.name)}
                                     key={1}
                                 >
                                     {pokemon.types[0].type.name}
                                 </span>
                                 <span
-                                    className="badge bg-secondary"
+                                    className={getTypeClass(pokemon.types[1].type.name)}
                                     key={2}
                                 >
                                     {pokemon.types[1].type.name}
