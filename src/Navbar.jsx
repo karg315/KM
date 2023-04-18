@@ -56,8 +56,8 @@ export function Navbar() {
                                     <ul className="dropdown-menu dropdown-menu-dark">
                                         <li>
                                             <Link
-                                                className="dropdown-item disabled"
-                                                to="/horarios/2023-1"
+                                                className="dropdown-item "
+                                                to="/horarios/2023-I"
                                             >
                                                 2023-1
                                             </Link>

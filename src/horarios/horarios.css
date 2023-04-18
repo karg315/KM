@@ -1,0 +1,243 @@
+#titulo-makein {
+    border: 3px dashed #ff8800;
+    color: #ff8800;
+}
+#titulo-rayo {
+    border: 3px dashed #0011f8;
+    color: #0011f8;
+}
+#titulo-diego {
+    border: 3px dashed #f80000;
+    color: #f80000;
+}
+#titulo-stanli {
+    border: 3px dashed #530053;
+    color: #530053;
+}
+#titulo-santy {
+    border: 3px dashed #005317;
+    color: #005317;
+}
+#titulo-angie {
+    border: 3px dashed #53003b;
+    color: #53003b;
+}
+#notas {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+.section {
+    border: solid 2px;
+    border-color: rgba(0, 247, 255, 0.521);
+    background-color: rgba(255, 255, 255, 0.808);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    box-shadow: 5px 10px 15px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: scroll;
+}
+
+table {
+    width: 100%;
+    font-size: 0.9em;
+    margin: auto;
+    margin-top: 2em;
+    min-width: 600px;
+}
+
+table,
+th,
+td {
+    border: 2px solid #00000025;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+    align-content: center;
+    max-width: 1200px;
+}
+
+.materia {
+    font-weight: bold;
+    color: white;
+}
+
+.fem {
+    background-color: #8100a1;
+}
+.vectorial {
+    background-color: #0039d4;
+}
+.pensamiento {
+    background-color: #000e69;
+}
+.ingles {
+    background-color: #00771e;
+}
+.programacion {
+    background-color: #006961;
+}
+.react {
+    background-color: #c87100;
+}
+.redes {
+    background-color: #4b7000;
+}
+.digital {
+    background-color: #807d00;
+}
+.core {
+    background-color: #8b0000;
+}
+.bases-de-datos {
+    background-color: #0c9499;
+}
+
+/* Materias rayo*/
+.circuitos {
+    background-color: #0039d4;
+}
+.integral {
+    background-color: #00771e;
+}
+.fisiologia {
+    background-color: #005205;
+}
+.digitales {
+    background-color: #5f0069;
+}
+.lab-digitales {
+    background-color: #380069;
+}
+.biofisica {
+    background-color: #003c69;
+}
+.lab-biofisica {
+    background-color: #001069;
+}
+.electronica {
+    background-color: #5d0800;
+}
+.lab-electronica {
+    background-color: #87101c;
+}
+.lab-fisica {
+    background-color: #001069;
+}
+.anatomia {
+    background-color: #807d00;
+}
+/* fem igual que makein*/
+.biomateriales {
+    background-color: #8b0000;
+}
+
+/* Materias diego*/
+.materiales {
+    background-color: #00461d;
+}
+.fluidos {
+    background-color: #080080;
+}
+.diferenciales {
+    background-color: #958d00;
+}
+.marketing {
+    background-color: #770071;
+}
+.construccion {
+    background-color: #490077;
+}
+.lab-materiales {
+    background-color: #55002d;
+}
+.mecanica-suelo {
+    background-color: #005577;
+}
+.lab-mecanica-suelo {
+    background-color: #001477;
+}
+.numericos {
+    background-color: #005212;
+}
+.diseño-vias {
+    background-color: #774000;
+}
+
+/* Materias de Stanli*/
+.teoria {
+    background-color: #770071;
+}
+.teclado {
+    background-color: #00522c;
+}
+.gramatica {
+    background-color: #000f52;
+}
+.edicion-musical {
+    background-color: #006ca6;
+}
+.diversidad {
+    background-color: #8c0000;
+}
+.seminario {
+    background-color: #028e00;
+}
+.historia-musica {
+    background-color: #524600;
+}
+.guitarra {
+    background-color: #00524e;
+}
+.canciones {
+    background-color: #524a00;
+}
+.creacion {
+    background-color: #520000;
+}
+.historia {
+    background-color: #007a29;
+}
+.lenguaje {
+    background-color: #a5c200;
+}
+
+/*Materias Santy*/
+.expresion {
+    background-color: #007728;
+}
+.fotograficas {
+    background-color: #002877;
+}
+.emprendimiento {
+    background-color: #6b7700;
+}
+.diseño {
+    background-color: #770000;
+}
+.animacion {
+    background-color: #3c0077;
+}
+.dibujo {
+    background-color: #930067;
+}
+.tresdbasico {
+    background-color: #2eac00;
+}
+.metodologia {
+    background-color: darkcyan;
+}
+.guion {
+    background-color: #797500;
+}
+.literatura {
+    background-color: #040077;
+}
