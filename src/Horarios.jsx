@@ -7,7 +7,7 @@ export default function Torneos() {
         <div className="Torneos">
             <Navbar />
             <div className="container">
-                <h1 className="my-5">Torneos</h1>
+                <h1 className="my-5">Horarios</h1>
                 <div className="seccion-enlaces">
                     <div className="row row-cols-1 row-cols-md-2 g-4">
                         <div className="col">

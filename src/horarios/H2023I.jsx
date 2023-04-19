@@ -7,8 +7,7 @@ export default function H2023I() {
         <div className="H2023I">
             <Navbar />
             <div className="container">
-                <br />
-                <br />
+            <h1 className="my-5">Horarios 2023-1</h1>
                 <div className="section" id="horario makein">
                     
                     <h1>
