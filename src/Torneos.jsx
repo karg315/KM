@@ -1,6 +1,7 @@
 import { Navbar } from "./Navbar";
 import { Link } from "react-router-dom";
 import tfifa2022 from "./images/torneo-fifa-2022.png";
+import tfifa20231 from "./images/torneo-fifa-2023-1.png";
 import wip from "./images/wip.png";
 
 export default function Torneos() {
@@ -36,10 +37,10 @@ export default function Torneos() {
                         </div>
                         <div className="col">
                             <div className="card">
-                                <Link to="/eventos" className="mx-auto">
+                                <Link to="/torneos/torneo-fifa-2023-1" className="mx-auto">
                                     <img
-                                        src={wip}
-                                        className="card-img-top wip"
+                                        src={tfifa20231}
+                                        className="card-img-top"
                                         alt="Torneos"
                                         height="300px"
                                         width="300px"

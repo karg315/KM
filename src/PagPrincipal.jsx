@@ -106,6 +106,8 @@ export default function PagPrincipal() {
                                 </div>
                             </div>
                         </div>
+
+                        <Link to="/tabla">Tabla</Link>
                     </div>
                 </div>
             </div>
