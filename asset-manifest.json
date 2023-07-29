@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/KM/static/css/main.c09b7478.css",
-    "main.js": "/KM/static/js/main.3e1f4ea5.js",
+    "main.js": "/KM/static/js/main.1fa5db83.js",
     "static/media/torneo-fifa-2022.png": "/KM/static/media/torneo-fifa-2022.32ce8398b54087c8d356.png",
     "static/media/fondo-kartel-v1.jpg": "/KM/static/media/fondo-kartel-v1.cddf98ff71f7f30f01f1.jpg",
     "static/media/torneo-fifa-2023-1.png": "/KM/static/media/torneo-fifa-2023-1.976eadc158ea21c4dd65.png",
@@ -10,9 +10,14 @@
     "static/media/horarios.jpg": "/KM/static/media/horarios.9218172a20ca023ab951.jpg",
     "static/media/herramientas.jpg": "/KM/static/media/herramientas.6d301be872c8b37cd17e.jpg",
     "static/media/Liverpool.png": "/KM/static/media/Liverpool.0fc8d5f0e688be094771.png",
+    "static/media/2023-ii.jpg": "/KM/static/media/2023-ii.8db623bc37e54e255a30.jpg",
+    "static/media/2022-ii.jpg": "/KM/static/media/2022-ii.af07b848a4706cb05ed2.jpg",
     "static/media/Real_Madrid.png": "/KM/static/media/Real_Madrid.465bc72a6b3ffec0b748.png",
     "static/media/wip.png": "/KM/static/media/wip.cb24cab649fd40138480.png",
+    "static/media/2023-i.jpg": "/KM/static/media/2023-i.29e66c17a8bcb55e7100.jpg",
     "static/media/Manchester_City.png": "/KM/static/media/Manchester_City.4cde6411b263b0cad73c.png",
+    "static/media/2022-i.jpg": "/KM/static/media/2022-i.b180fad2b93d0c9b0a08.jpg",
+    "static/media/2021-ii.jpg": "/KM/static/media/2021-ii.850ece50e605687e94ea.jpg",
     "static/media/Bayern.png": "/KM/static/media/Bayern.676ba3dad481a7a0f931.png",
     "static/media/Paris.png": "/KM/static/media/Paris.797efdacd08aee0278fa.png",
     "static/media/piola.png": "/KM/static/media/piola.aa5d62aeb72fb615bfad.png",
@@ -23,10 +28,10 @@
     "static/media/Pokedex.png": "/KM/static/media/Pokedex.d8705ee2246032db7f3e.png",
     "index.html": "/KM/index.html",
     "main.c09b7478.css.map": "/KM/static/css/main.c09b7478.css.map",
-    "main.3e1f4ea5.js.map": "/KM/static/js/main.3e1f4ea5.js.map"
+    "main.1fa5db83.js.map": "/KM/static/js/main.1fa5db83.js.map"
   },
   "entrypoints": [
     "static/css/main.c09b7478.css",
-    "static/js/main.3e1f4ea5.js"
+    "static/js/main.1fa5db83.js"
   ]
 }
