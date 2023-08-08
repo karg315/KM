@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/KM/static/css/main.c09b7478.css",
-    "main.js": "/KM/static/js/main.1fa5db83.js",
+    "main.js": "/KM/static/js/main.93fb7dc3.js",
     "static/media/torneo-fifa-2022.png": "/KM/static/media/torneo-fifa-2022.32ce8398b54087c8d356.png",
     "static/media/fondo-kartel-v1.jpg": "/KM/static/media/fondo-kartel-v1.cddf98ff71f7f30f01f1.jpg",
     "static/media/torneo-fifa-2023-1.png": "/KM/static/media/torneo-fifa-2023-1.976eadc158ea21c4dd65.png",
@@ -26,12 +26,14 @@
     "static/media/linea-final-a.png": "/KM/static/media/linea-final-a.f6f8c37e4fdd02527d1e.png",
     "static/media/linea-final-b.png": "/KM/static/media/linea-final-b.98f7b6c440ba713addb7.png",
     "static/media/Pokedex.png": "/KM/static/media/Pokedex.d8705ee2246032db7f3e.png",
+    "static/media/corriendo.svg": "/KM/static/media/corriendo.649ac45b3a4d1c088b26eba5cba13bbb.svg",
+    "static/media/iniciado.svg": "/KM/static/media/iniciado.c8825c41ae50492fa6681b19de2f13fc.svg",
     "index.html": "/KM/index.html",
     "main.c09b7478.css.map": "/KM/static/css/main.c09b7478.css.map",
-    "main.1fa5db83.js.map": "/KM/static/js/main.1fa5db83.js.map"
+    "main.93fb7dc3.js.map": "/KM/static/js/main.93fb7dc3.js.map"
   },
   "entrypoints": [
     "static/css/main.c09b7478.css",
-    "static/js/main.1fa5db83.js"
+    "static/js/main.93fb7dc3.js"
   ]
 }
