@@ -5,7 +5,7 @@ export function Footer() {
     return (
         <>     
             <footer>
-                <h5>Kevin "Alejo315" Rodriguez | V3.15C</h5>
+                <h5>Kevin "Alejo315" Rodriguez | V3.15ZZZ</h5>
             </footer>
         </>
     );

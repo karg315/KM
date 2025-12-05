@@ -24,7 +24,7 @@ function App() {
                     <Route path="/torneos" element={<Torneos />} />
                     <Route path="/torneos/torneo-fifa-2022" element={<TFifa2022 />} />
                     <Route path="/torneos/torneo-fifa-2023-1" element={<TFifa20231 />} />
-                    <Route path="/torneos/torneo-fifa-2023-1" element={<TFifa20252 />} />
+                    <Route path="/torneos/torneo-fifa-2025-2" element={<TFifa20252 />} />
                     <Route path="/horarios" element={<Horarios />} />
                     <Route path="/horarios/2023-I" element={<H2023I />} />
                     <Route path="/herramientas" element={<Herramientas />} />
