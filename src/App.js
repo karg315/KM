@@ -9,6 +9,7 @@ import PokemonDetail from "./herramientas/PokemonDetail";
 import TFifa2022 from "./torneos/TFifa2022";
 import H2023I from "./horarios/H2023I";
 import TFifa20231 from "./torneos/TFifa2023-1";
+import TFifa20252 from "./torneos/TFifa2025-2";
 import Table from "./tabla";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
                     <Route path="/torneos" element={<Torneos />} />
                     <Route path="/torneos/torneo-fifa-2022" element={<TFifa2022 />} />
                     <Route path="/torneos/torneo-fifa-2023-1" element={<TFifa20231 />} />
+                    <Route path="/torneos/torneo-fifa-2023-1" element={<TFifa20252 />} />
                     <Route path="/horarios" element={<Horarios />} />
                     <Route path="/horarios/2023-I" element={<H2023I />} />
                     <Route path="/herramientas" element={<Herramientas />} />

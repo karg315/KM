@@ -2,6 +2,7 @@ import { Navbar } from "./Navbar";
 import { Link } from "react-router-dom";
 import tfifa2022 from "./images/torneo-fifa-2022.png";
 import tfifa20231 from "./images/torneo-fifa-2023-1.png";
+import tfifa20252 from "./images/torneo-fifa-2025-2.png";
 import wip from "./images/wip.png";
 
 export default function Torneos() {
@@ -53,28 +54,30 @@ export default function Torneos() {
                                     <p className="card-text">
                                         Segundo torneo de Fifa oficial del
                                         kartel, que se disputará entre junio y
-                                        julio de 2023. (Próximamente)
+                                        julio de 2023.
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div className="col mb-5">
                             <div className="card">
-                                <Link to="/eventos" className="mx-auto">
+                                <Link to="/torneos/torneo-fifa-2025-2" className="mx-auto">
                                     <img
-                                        src={wip}
+                                        src={tfifa20252}
                                         className="card-img-top wip"
-                                        alt="Eventos"
+                                        alt="Torneo 2025-2"
+                                        height="400px"
+                                        width="300px"
                                     />
                                 </Link>
                                 <div className="card-body">
                                     <h5 className="card-title">
-                                        Torneo Fifa Kartel de las Moritaz 2023-2
+                                        Torneo Fifa Kartel de las Moritaz 2025-2
                                     </h5>
                                     <p className="card-text">
                                         Tercer torneo de Fifa oficial del
-                                        kartel, que se disputará en diciembre de
-                                        2023. (Próximamente)
+                                        kartel, que se disputa el 5 de diciembre de
+                                        2025. 
                                     </p>
                                 </div>
                             </div>
